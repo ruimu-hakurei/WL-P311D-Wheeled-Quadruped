@@ -1,0 +1,17 @@
+# Webots controller builds and run logs
+/controllers/*/build/
+/controllers/*/logs/
+*.exe
+*.dll
+*.o
+*.d
+
+# Webots per-user world state
+/worlds/.*.wbproj
+
+# Local editor and OS files
+/.vscode/
+/.idea/
+__pycache__/
+.DS_Store
+Thumbs.db
